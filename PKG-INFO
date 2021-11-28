@@ -1,0 +1,9 @@
+Metadata-Version: 1.0
+Name: linalgnorm
+Version: 1.0
+Summary: This is a sample python package for encapsulating custom tranforms from scikit-learn into Watson Machine Learning
+Home-page: https://github.com/Alextnetto/watson-sklearn-tranformations
+Author-email: alex.t.netto@gmail.com
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN
