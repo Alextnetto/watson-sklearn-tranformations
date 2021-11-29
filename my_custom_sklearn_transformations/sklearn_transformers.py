@@ -1,4 +1,5 @@
 from sklearn.base import BaseEstimator, TransformerMixin
+import pandas as pd
 
 
 # Um transformador para limpar o dataframe
@@ -26,7 +27,7 @@ class Clean(BaseEstimator, TransformerMixin):
 
         # One hote encoding
         for column in categorical_columns:
-            hot_encoded = pd.get_dummies(df[column])
+            hot_encoded = pd.get_dummies(data[column])
             data = pd.concat((data, hot_encoded), axis=1)
 
         # Removendo as colunas categóricas

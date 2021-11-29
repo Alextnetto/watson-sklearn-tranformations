@@ -15,5 +15,8 @@ setup(
       packages=[
             'my_custom_sklearn_transformations'
       ],
+      install_requires=[
+          'pandas',
+      ],
       zip_safe=False
 )
